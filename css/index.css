@@ -1,0 +1,124 @@
+body{
+	background: #b4befe;
+	font-family: "oxygen", sans-serif;
+	}
+
+.header,.headerzh, .bodybody, .bodybodyzh{
+	width:75%;
+	margin: auto;
+	padding:75px 30px 50px 30px;
+	}
+
+.header, .headerzh{
+    background: #585b70;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    }
+
+.header{
+	font-size: 25px;
+	}
+
+.headerzh{
+	font-family: Noto Sans Traditional Chinese, sans-serif;
+	font-size: 30px;
+	}
+
+.bodybody, .bodybodyzh{
+    background:#1e1e2e;
+    }
+
+.bodybodyzh{
+	font-weight: 300;
+	}
+
+.bodybodyzh{
+	font-family: Noto Sans Traditional Chinese, sans-serif;
+	}
+
+.header a, .headerzh a{
+    color:#a6e3a1;
+	text-decoration: none;
+    }
+
+h2	{
+	color:#cdd6f4;
+	font-size: 28px;
+	}
+
+p	{
+	color:#cdd6f4;
+	font-size:16px;
+	}
+	
+p.about {
+	color:#ff0;   
+	}
+	
+a	{
+	color:#89b4fa;  
+	}
+
+ol li	{
+	color:#bac2de;
+	font-size:16px;
+	}
+	
+.navbar ul	{
+	list-style:none;
+	padding:0px;
+	}
+
+/* navbar*/	
+.navbar ul li{
+	display:inline;
+	padding-right:10px;
+	font-size:20px;
+    color:#bac2de;
+	}
+	
+.navbar ul a{
+	color:#cdd6f4;
+	}
+	
+.navbar ul a:hover {
+	color:white;
+	text-decoration:underline;
+	}
+/*navbar end*/
+
+.license    {
+    margin-top: 100px;
+    }
+
+.bodybody h3, .bodybodyzh h3  {
+    font-family: "Permanent Marker";
+    font-size: 150px;
+    color:#df8e1d;
+    text-decoration: none;
+    }
+
+.bodybodyzh h3  {
+    font-family: "Ma Shan Zheng";
+    }	
+
+.testimg{
+	margin-top: 200px;
+	text-align: center;
+	}
+
+
+.languages ul li{
+	display:inline;
+	padding-right:10px;
+	font-size:14px;
+    color:#bac2de;
+	}
+	
+.languages ul a{
+	color:#89b4fa;
+	}
+	
+.embed {
+	margin-left: 200px;
+	}
