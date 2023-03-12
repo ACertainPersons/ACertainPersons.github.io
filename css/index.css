@@ -1,11 +1,12 @@
 body{
-	background: #b4befe;
+	height: 100%;
+    margin: 0;
 	font-family: "oxygen", sans-serif;
+	background:#1e1e2e;
 	}
 
 .header,.headerzh, .bodybody, .bodybodyzh{
-	width:75%;
-	margin: auto;
+	margin: 0;
 	padding:75px 30px 50px 30px;
 	}
 
@@ -13,6 +14,7 @@ body{
     background: #585b70;
     padding-bottom: 10px;
     padding-top: 20px;
+	
     }
 
 .header{
@@ -25,7 +27,7 @@ body{
 	}
 
 .bodybody, .bodybodyzh{
-    background:#1e1e2e;
+	margin-left: 10%;
     }
 
 .bodybodyzh{
@@ -89,6 +91,7 @@ ol li	{
 
 .license    {
     margin-top: 100px;
+	padding-bottom: 20px;
     }
 
 .bodybody h3, .bodybodyzh h3  {
@@ -107,11 +110,19 @@ ol li	{
 	text-align: center;
 	}
 
+.languages{
+	padding-top: 0;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	background: rgb(88, 91, 112); /* If no RGBA */
+    background: rgb(88, 91, 112, 0.5);
+	}
 
 .languages ul li{
 	display:inline;
 	padding-right:10px;
-	font-size:14px;
+	font-size:13px;
     color:#bac2de;
 	}
 	
@@ -120,5 +131,5 @@ ol li	{
 	}
 	
 .embed {
-	margin-left: 20%;
+	margin-left: 10%;
 	}
