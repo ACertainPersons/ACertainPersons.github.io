@@ -28,6 +28,7 @@ body{
 
 .bodybody, .bodybodyzh{
 	margin-left: 10%;
+	margin-right: 10%;
     }
 
 .bodybodyzh{
@@ -141,6 +142,6 @@ dl dt	{
 
 dl dd	{
 	color:#bac2de;
-	font-size: 48px;
+	font-size: 100px;
 	}
 
