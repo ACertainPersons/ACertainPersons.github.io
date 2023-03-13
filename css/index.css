@@ -46,12 +46,17 @@ body{
 
 h2	{
 	color:#cdd6f4;
-	font-size: 28px;
+	font-size: 32px;
 	}
 
-p	{
+.bodybody p	{
 	color:#cdd6f4;
 	font-size:16px;
+	}
+
+.bodybodyzh p{
+	color:#cdd6f4;
+	font-size: 18px;
 	}
 	
 p.about {
@@ -64,7 +69,14 @@ a	{
 
 ol li	{
 	color:#bac2de;
+	}
+
+.bodybody ol li {
 	font-size:16px;
+	}
+
+.bodybodyzh ol li {
+	font-size:18px;
 	}
 	
 .navbar ul	{
