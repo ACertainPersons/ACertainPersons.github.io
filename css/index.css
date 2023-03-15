@@ -1,3 +1,10 @@
+@font-face {
+	font-family: "SourceHanSerif";
+	src:
+	  url("SourceHanSansHWHC-Regular.otf") format("opentype");
+  }
+  
+
 body{
 	height: 100%;
     margin: 0;
@@ -26,7 +33,7 @@ body{
 	}	
 
 .headerzh h1{
-	font-family: Noto Serif Traditional Chinese;
+	font-family: SourceHanSerif;
 	}	
 
 .headerzh{
