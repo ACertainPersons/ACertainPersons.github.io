@@ -21,6 +21,14 @@ body{
 	font-size: 25px;
 	}
 
+.header h1{
+	font-family: 'Times New Roman', Times, serif;
+	}	
+
+.headerzh h1{
+	font-family: Noto Serif Traditional Chinese, serif;
+	}	
+
 .headerzh{
 	font-family: Noto Sans Traditional Chinese, sans-serif;
 	font-size: 30px;
@@ -107,15 +115,14 @@ ol li	{
 	padding-bottom: 20px;
     }
 
-.bodybody h3, .bodybodyzh h3  {
+.bodybody h3{
     font-family: "Permanent Marker";
-    font-size: 150px;
-    color:#df8e1d;
-    text-decoration: none;
+	font-size: 200px;
     }
 
 .bodybodyzh h3  {
     font-family: "Ma Shan Zheng";
+	font-size: 250px;
     }	
 
 .testimg{
@@ -157,3 +164,70 @@ dl dd	{
 	font-size: 100px;
 	}
 
+.button	{
+	text-align: center;
+	margin-bottom: 150px;
+	}
+	
+.button ul	{
+	list-style:none;
+	padding:0px;
+	}
+	
+.button ul li{
+	display:inline;
+	padding-right:10px;
+	font-size:18px;
+	}
+	
+.buttonul a {
+	color:#36f;
+	}
+	
+.button ul a:hover {
+	color:white;
+	text-decoration:underline;
+	}
+
+h3	{
+	margin: 0px;
+	}
+	
+/*-----------------------------*/
+/*           BUTTONS           */
+/*-----------------------------*/
+
+.btn:link,
+.btn:visited	{
+	display: inline-block;
+	padding: 10px 50px;
+	font-weight: bold;
+	text-decoration:none;
+	border-radius:200px;
+	transition: background-color 0.5s, border 0.5s, color 0.5s;
+	}
+	
+.btn-full:link,
+.btn-full:visited {
+	border: 1px solid #e67e22;
+	background-color: #e67e22;
+	color: #fff;
+	margin-right: 15px;
+	}
+	
+.btn-ghost:link,
+.btn-ghost:visited {
+	border: 1px solid #e67e22;
+	color: #e67e22;
+	}
+
+.btn:hover,
+.btn:active {
+	background-color: #cf6d17;
+	border: 1px solid: #cf6d17;
+	}
+	
+.btn-ghost:hover,
+.btn-ghost:active	{
+	color:white;
+		}
