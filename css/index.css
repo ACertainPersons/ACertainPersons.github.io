@@ -26,7 +26,7 @@ body{
 	}	
 
 .headerzh h1{
-	font-family: Noto Serif Traditional Chinese, serif;
+	font-family: Noto Serif Traditional Chinese;
 	}	
 
 .headerzh{
@@ -231,3 +231,4 @@ h3	{
 .btn-ghost:active	{
 	color:white;
 		}
+/*end*/
