@@ -1,9 +1,12 @@
 @font-face {
-	font-family: "SourceHanSerif";
-	src:
-	  url("SourceHanSansHWHC-Regular.otf") format("opentype");
-  }
-  
+	font-family: "SourceHanSerifTC";
+	src:url("../Articles/fonts/SourceHanSerifTC-SemiBold.otf") format("opentype"),  url("../Articles/fonts/SourceHanSerifTC-SemiBold.woff") format("woff");
+  }   
+
+@font-face {
+	font-family: "cwTeXKai";
+	src: url("../Articles/fonts/cwTeXKai-zhonly.woff") format("woff");
+  } 
 
 body{
 	height: 100%;
@@ -33,7 +36,7 @@ body{
 	}	
 
 .headerzh h1{
-	font-family: SourceHanSerif;
+	font-family: 'SourceHanSerifTC';
 	}	
 
 .headerzh{
@@ -128,7 +131,7 @@ ol li	{
     }
 
 .bodybodyzh h3  {
-    font-family: "Ma Shan Zheng";
+    font-family: "cwTeXKai", cursive;
 	font-size: 250px;
     }	
 
