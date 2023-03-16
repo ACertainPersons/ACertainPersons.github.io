@@ -42,25 +42,33 @@ body{
 .headerzh{
 	font-family: Noto Sans Traditional Chinese, sans-serif;
 	font-size: 30px;
+	text-align: right;
 	}
 
 .bodybody, .bodybodyzh{
-	margin-left: 10%;
+	padding-left: 10%;
 	margin-right: 10%;
     }
 
 .bodybodyzh{
+	writing-mode: vertical-rl;
 	font-weight: 300;
-	}
-
-.bodybodyzh{
 	font-family: Noto Sans Traditional Chinese, sans-serif;
+	display: block;
+  	margin-left: auto;
+  	margin-right: 30%;
+	height: 50%;
+	width: max-content;
 	}
 
 .header a, .headerzh a{
     color:#a6e3a1;
 	text-decoration: none;
     }
+
+.content	{
+	margin-left: 100px;
+	}
 
 h2	{
 	color:#cdd6f4;
@@ -75,6 +83,7 @@ h2	{
 .bodybodyzh p{
 	color:#cdd6f4;
 	font-size: 18px;
+	line-height: 30px;
 	}
 	
 p.about {
@@ -121,7 +130,7 @@ ol li	{
 /*navbar end*/
 
 .license    {
-    margin-top: 100px;
+    margin-right: 100px;
 	padding-bottom: 20px;
     }
 
@@ -176,7 +185,8 @@ dl dd	{
 
 .button	{
 	text-align: center;
-	margin-bottom: 150px;
+	margin-right: 1000px
+	margin-left: 100px;
 	}
 	
 .button ul	{
