@@ -41,8 +41,13 @@ body{
 
 .headerzh{
 	font-family: Noto Sans Traditional Chinese, sans-serif;
+	padding: 0;
+	padding-top:30px;
 	font-size: 30px;
-	text-align: right;
+	writing-mode: vertical-rl;
+	position: fixed;
+	right: 0;
+	height: 100%;
 	}
 
 .bodybody, .bodybodyzh{
@@ -54,11 +59,12 @@ body{
 	writing-mode: vertical-rl;
 	font-weight: 300;
 	font-family: Noto Sans Traditional Chinese, sans-serif;
-	display: block;
-  	margin-left: auto;
-  	margin-right: 30%;
-	height: 50%;
-	width: max-content;
+	overflow-x: auto;
+	overflow-y: hidden;
+	white-space: normal;
+    width: 90%;
+	height: 85.5%;
+	float: right;
 	}
 
 .header a, .headerzh a{
@@ -75,6 +81,10 @@ h2	{
 	font-size: 32px;
 	}
 
+.bodybodyzh	h2 {
+	margin-right: 300px;
+	}
+
 .bodybody p	{
 	color:#cdd6f4;
 	font-size:16px;
@@ -85,7 +95,7 @@ h2	{
 	font-size: 18px;
 	line-height: 30px;
 	}
-	
+
 p.about {
 	color:#ff0;   
 	}
@@ -130,6 +140,7 @@ ol li	{
 /*navbar end*/
 
 .license    {
+	padding-left: 100px;
     margin-right: 100px;
 	padding-bottom: 20px;
     }
@@ -149,9 +160,23 @@ ol li	{
 	text-align: center;
 	}
 
+.languageszh{
+	writing-mode: vertical-rl;
+	padding-top: 0;
+	padding-left: 0;
+	width: 50px;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	background: rgb(88, 91, 112); /* If no RGBA */
+    background: rgb(88, 91, 112, 0.5);
+	}
+
 .languages{
 	padding-top: 0;
+	padding-left: 0;
 	width: 100%;
+	height: 50px;
 	position: fixed;
 	bottom: 0;
 	background: rgb(88, 91, 112); /* If no RGBA */
@@ -164,8 +189,16 @@ ol li	{
 	font-size:13px;
     color:#bac2de;
 	}
+
+.languageszh ul li {
+	padding-bottom:10px;
+	display:inline;
+	font-size:13px;
+    color:#bac2de;
+	}
 	
-.languages ul a{
+.languages ul a,
+.languageszh ul a{
 	color:#89b4fa;
 	}
 	
@@ -185,7 +218,7 @@ dl dd	{
 
 .button	{
 	text-align: center;
-	margin-right: 1000px
+	margin-right: 100px;
 	margin-left: 100px;
 	}
 	
@@ -234,21 +267,10 @@ h3	{
 	color: #fff;
 	margin-right: 15px;
 	}
-	
-.btn-ghost:link,
-.btn-ghost:visited {
-	border: 1px solid #e67e22;
-	color: #e67e22;
-	}
 
 .btn:hover,
 .btn:active {
 	background-color: #cf6d17;
-	border: 1px solid: #cf6d17;
+	border: 1px solid #cf6d17;
 	}
-	
-.btn-ghost:hover,
-.btn-ghost:active	{
-	color:white;
-		}
 /*end*/
