@@ -140,8 +140,15 @@ ol li	{
 /*navbar end*/
 
 .license    {
+	padding-top: 200px;
 	padding-left: 100px;
     margin-right: 100px;
+	padding-bottom: 20px;
+    }
+
+.licensezh    {
+	padding-left: 150px;
+    margin-right: 200px;
 	padding-bottom: 20px;
     }
 
@@ -262,15 +269,15 @@ h3	{
 	
 .btn-full:link,
 .btn-full:visited {
-	border: 1px solid #e67e22;
-	background-color: #e67e22;
+	border: 1px solid #fe640b;
+	background-color: #fe640b;
 	color: #fff;
 	margin-right: 15px;
 	}
 
 .btn:hover,
 .btn:active {
-	background-color: #cf6d17;
-	border: 1px solid #cf6d17;
+	background-color: #ed530a;
+	border: 1px solid #ed530a;;
 	}
 /*end*/
