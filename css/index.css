@@ -165,7 +165,6 @@ ol li	{
 .license    {
 	padding-top: 200px;
 	padding-left: 100px;
-    margin-right: 100px;
 	padding-bottom: 20px;
     }
 
@@ -185,22 +184,26 @@ ol li	{
 	}
 }
 
+.bodybodyzh h3{
+	font-family: "cwTeXKai", cursive;
+	}
+
 .bodybody h3{
     font-family: "Permanent Marker";
 	font-size: 250px;
     }
 
-@media only screen and (max-width: 800px) {
-.bodybody h3{
+@media only screen and (max-width: 1432px) {
+.bodybody h3, .bodybodyzh h3{
 	font-size: 50px;
     }
-
 }
 
+@media only screen and (min-width: 1432px) {
 .bodybodyzh h3  {
-    font-family: "cwTeXKai", cursive;
 	font-size: 250px;
     }	
+}
 
 .testimg{
 	margin-top: 200px;
@@ -278,7 +281,7 @@ dl dd	{
 	font-size: 8vh;
 	}
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1432px) {
 .button	{
 	text-align: center;
 	margin-right: 100px;
@@ -287,7 +290,7 @@ dl dd	{
 	}
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1432px) {
 .button	{
 	text-align: center;
 	margin-right: 100px;
