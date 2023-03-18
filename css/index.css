@@ -67,18 +67,14 @@ body{
 }
 
 .bodybody, .bodybodyzh{
-	padding-left: 10%;
-	margin-right: 10%;
+	padding-left: 5%;
+	padding-right: 5%;
     }
 
 .header a, .headerzh a{
     color:#a6e3a1;
 	text-decoration: none;
     }
-
-.content	{
-	margin-left: 10%;
-	}
 
 h2	{
 	color:#cdd6f4;
@@ -87,7 +83,7 @@ h2	{
 
 @media screen and (min-width: 800px) {
 .bodybodyzh	h2 {
-	margin-right: 300px;
+	margin-right: 600px;
 	}
 }
 
@@ -177,8 +173,8 @@ ol li	{
 
 @media only screen and (max-width: 800px) {
 .licensezh{
+	padding-left: 0;
 	padding-top: 200px;
-	margin-right: 100px;
 	padding-bottom: 20px;
 	}
 }
@@ -263,11 +259,6 @@ ol li	{
 .languages ul a,
 .languageszh ul a{
 	color:#89b4fa;
-	}
-	
-.embed {
-	margin-left: 10%;
-	margin-right: 5%;
 	}
 
 dl dt	{
