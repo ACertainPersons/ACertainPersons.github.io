@@ -66,7 +66,6 @@ body{
 	}
 }
 
-
 .bodybody, .bodybodyzh{
 	padding-left: 10%;
 	margin-right: 10%;
@@ -97,11 +96,21 @@ h2	{
 	font-size:16px;
 	}
 
+@media screen and (min-width: 800px) {
 .bodybodyzh p{
 	color:#cdd6f4;
 	font-size: 18px;
 	line-height: 30px;
 	}
+}
+
+@media screen and (max-width: 800px) {
+.bodybodyzh p{
+	color:#cdd6f4;
+	font-size: 15px;
+	line-height: 30px;
+	}
+}
 
 p.about {
 	color:#ff0;   
@@ -119,10 +128,17 @@ ol li	{
 	font-size:16px;
 	}
 
+@media screen and (max-width: 800px) {
+.bodybodyzh ol li{
+	font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 800px) {
 .bodybodyzh ol li {
 	font-size:18px;
 	}
-	
+}	
 .navbar ul	{
 	list-style:none;
 	padding:0px;
@@ -171,8 +187,15 @@ ol li	{
 
 .bodybody h3{
     font-family: "Permanent Marker";
-	font-size: 100px;
+	font-size: 250px;
     }
+
+@media only screen and (max-width: 800px) {
+.bodybody h3{
+	font-size: 50px;
+    }
+
+}
 
 .bodybodyzh h3  {
     font-family: "cwTeXKai", cursive;
@@ -272,17 +295,6 @@ dl dd	{
 	float: left;
 	}
 }
-	
-.button ul	{
-	list-style:none;
-	padding:0px;
-	}
-	
-.button ul li{
-	display:inline;
-	padding-right:10px;
-	font-size:18px;
-	}
 	
 .buttonul a {
 	color:#36f;
