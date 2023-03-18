@@ -36,47 +36,82 @@ body{
 	}	
 
 .headerzh h1{
-	font-family: 'SourceHanSerifTC';
+	font-family: 'SourceHanSerifTC', serif;
 	}	
 
+/* Desktop*/
+@media screen and (min-width: 800px) {
 .headerzh{
 	font-family: Noto Sans Traditional Chinese, sans-serif;
+	padding: 0;
+	padding-top:30px;
 	font-size: 30px;
+	writing-mode: vertical-rl;
+	position: fixed;
+	right: 0;
+	height: 100%;
 	}
+
+.bodybodyzh{
+	margin: 0;
+	writing-mode: vertical-rl;
+	font-weight: 300;
+	font-family: Noto Sans Traditional Chinese, sans-serif;
+	overflow-x: auto;
+	overflow-y: hidden;
+	white-space: normal;
+    width: 90%;
+	height: calc(100% - 125px);
+	float: right;
+	}
+}
 
 .bodybody, .bodybodyzh{
-	margin-left: 10%;
+	padding-left: 10%;
 	margin-right: 10%;
     }
-
-.bodybodyzh{
-	font-weight: 300;
-	}
-
-.bodybodyzh{
-	font-family: Noto Sans Traditional Chinese, sans-serif;
-	}
 
 .header a, .headerzh a{
     color:#a6e3a1;
 	text-decoration: none;
     }
 
+.content	{
+	margin-left: 10%;
+	}
+
 h2	{
 	color:#cdd6f4;
 	font-size: 32px;
 	}
+
+@media screen and (min-width: 800px) {
+.bodybodyzh	h2 {
+	margin-right: 300px;
+	}
+}
 
 .bodybody p	{
 	color:#cdd6f4;
 	font-size:16px;
 	}
 
+@media screen and (min-width: 800px) {
 .bodybodyzh p{
 	color:#cdd6f4;
 	font-size: 18px;
+	line-height: 30px;
 	}
-	
+}
+
+@media screen and (max-width: 800px) {
+.bodybodyzh p{
+	color:#cdd6f4;
+	font-size: 15px;
+	line-height: 30px;
+	}
+}
+
 p.about {
 	color:#ff0;   
 	}
@@ -93,10 +128,17 @@ ol li	{
 	font-size:16px;
 	}
 
+@media screen and (max-width: 800px) {
+.bodybodyzh ol li{
+	font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 800px) {
 .bodybodyzh ol li {
 	font-size:18px;
 	}
-	
+}	
 .navbar ul	{
 	list-style:none;
 	padding:0px;
@@ -121,14 +163,39 @@ ol li	{
 /*navbar end*/
 
 .license    {
-    margin-top: 100px;
+	padding-top: 200px;
+	padding-left: 100px;
+    margin-right: 100px;
 	padding-bottom: 20px;
     }
 
+@media only screen and (min-width: 800px) {
+.licensezh    {
+	padding-left: 150px;
+    margin-right: 200px;
+	padding-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+.licensezh{
+	padding-top: 200px;
+	margin-right: 100px;
+	padding-bottom: 20px;
+	}
+}
+
 .bodybody h3{
     font-family: "Permanent Marker";
-	font-size: 100px;
+	font-size: 250px;
     }
+
+@media only screen and (max-width: 800px) {
+.bodybody h3{
+	font-size: 50px;
+    }
+
+}
 
 .bodybodyzh h3  {
     font-family: "cwTeXKai", cursive;
@@ -140,9 +207,37 @@ ol li	{
 	text-align: center;
 	}
 
+.languageszh{
+	writing-mode: vertical-rl;
+	padding-top: 0;
+	padding-left: 0;
+	width: 50px;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	background: rgb(88, 91, 112); /* If no RGBA */
+    background: rgb(88, 91, 112, 0.5);
+	}
+
+@media only screen and (max-width:800px) {
+.languageszh{
+	writing-mode: horizontal-tb;
+	padding-top: 0;
+	padding-left: 0;
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	bottom: 0;
+	background: rgb(88, 91, 112); /* If no RGBA */
+    background: rgb(88, 91, 112, 0.5);
+	}
+}
+
 .languages{
 	padding-top: 0;
+	padding-left: 0;
 	width: 100%;
+	height: 50px;
 	position: fixed;
 	bottom: 0;
 	background: rgb(88, 91, 112); /* If no RGBA */
@@ -155,13 +250,22 @@ ol li	{
 	font-size:13px;
     color:#bac2de;
 	}
+
+.languageszh ul li {
+	padding-bottom:10px;
+	display:inline;
+	font-size:13px;
+    color:#bac2de;
+	}
 	
-.languages ul a{
+.languages ul a,
+.languageszh ul a{
 	color:#89b4fa;
 	}
 	
 .embed {
 	margin-left: 10%;
+	margin-right: 5%;
 	}
 
 dl dt	{
@@ -171,24 +275,26 @@ dl dt	{
 
 dl dd	{
 	color:#bac2de;
-	font-size: 100px;
+	font-size: 8vh;
 	}
 
+@media only screen and (min-width: 800px) {
 .button	{
 	text-align: center;
-	margin-bottom: 150px;
+	margin-right: 100px;
+	margin-left: 100px;
+	float:center;
 	}
-	
-.button ul	{
-	list-style:none;
-	padding:0px;
+}
+
+@media only screen and (max-width: 800px) {
+.button	{
+	text-align: center;
+	margin-right: 100px;
+	margin-left: 0;
+	float: left;
 	}
-	
-.button ul li{
-	display:inline;
-	padding-right:10px;
-	font-size:18px;
-	}
+}
 	
 .buttonul a {
 	color:#36f;
@@ -219,26 +325,15 @@ h3	{
 	
 .btn-full:link,
 .btn-full:visited {
-	border: 1px solid #e67e22;
-	background-color: #e67e22;
+	border: 1px solid #fe640b;
+	background-color: #fe640b;
 	color: #fff;
 	margin-right: 15px;
-	}
-	
-.btn-ghost:link,
-.btn-ghost:visited {
-	border: 1px solid #e67e22;
-	color: #e67e22;
 	}
 
 .btn:hover,
 .btn:active {
-	background-color: #cf6d17;
-	border: 1px solid: #cf6d17;
+	background-color: #ed530a;
+	border: 1px solid #ed530a;;
 	}
-	
-.btn-ghost:hover,
-.btn-ghost:active	{
-	color:white;
-		}
 /*end*/
