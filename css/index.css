@@ -40,7 +40,7 @@ body{
 	}	
 
 /* Desktop*/
-@media only screen and (min-width: 800px) {
+@media screen and (min-width: 800px) {
 .headerzh{
 	font-family: Noto Sans Traditional Chinese, sans-serif;
 	padding: 0;
@@ -61,7 +61,7 @@ body{
 	overflow-y: hidden;
 	white-space: normal;
     width: 90%;
-	height:100%-30px;
+	height: calc(100% - 125px);
 	float: right;
 	}
 }
@@ -78,7 +78,7 @@ body{
     }
 
 .content	{
-	margin-left: 100px;
+	margin-left: 10%;
 	}
 
 h2	{
@@ -86,9 +86,11 @@ h2	{
 	font-size: 32px;
 	}
 
+@media screen and (min-width: 800px) {
 .bodybodyzh	h2 {
 	margin-right: 300px;
 	}
+}
 
 .bodybody p	{
 	color:#cdd6f4;
@@ -240,6 +242,7 @@ ol li	{
 	
 .embed {
 	margin-left: 10%;
+	margin-right: 5%;
 	}
 
 dl dt	{
@@ -249,14 +252,26 @@ dl dt	{
 
 dl dd	{
 	color:#bac2de;
-	font-size: 100px;
+	font-size: 8vh;
 	}
 
+@media only screen and (min-width: 800px) {
 .button	{
 	text-align: center;
 	margin-right: 100px;
 	margin-left: 100px;
+	float:center;
 	}
+}
+
+@media only screen and (max-width: 800px) {
+.button	{
+	text-align: center;
+	margin-right: 100px;
+	margin-left: 0;
+	float: left;
+	}
+}
 	
 .button ul	{
 	list-style:none;
