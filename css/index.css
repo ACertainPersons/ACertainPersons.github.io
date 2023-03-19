@@ -1,11 +1,11 @@
 @font-face {
 	font-family: "SourceHanSerifTC";
-	src:url("../Articles/fonts/SourceHanSerifTC-SemiBold.otf") format("opentype"),  url("../Articles/fonts/SourceHanSerifTC-SemiBold.woff") format("woff");
+	src:url("../Content/fonts/SourceHanSerifTC-SemiBold.otf") format("opentype"),  url("../Content/fonts/SourceHanSerifTC-SemiBold.woff") format("woff");
   }   
 
 @font-face {
 	font-family: "cwTeXKai";
-	src: url("../Articles/fonts/cwTeXKai-zhonly.woff") format("woff");
+	src: url("../Content/fonts/cwTeXKai-zhonly.woff") format("woff");
   } 
 
 body{
