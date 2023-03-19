@@ -166,7 +166,7 @@ ol li	{
 @media only screen and (min-width: 800px) {
 .licensezh    {
 	padding-left: 150px;
-    margin-right: 200px;
+    padding-right: 200px;
 	padding-bottom: 20px;
     }
 }
@@ -289,6 +289,11 @@ dl dd	{
 	}
 }
 	
+@media only screen and (max-width: 1432px) and (min-width: 800px){
+	.button	{
+		margin-bottom: 65vh;
+	}
+}
 .buttonul a {
 	color:#36f;
 	}
