@@ -306,7 +306,21 @@ dl dd	{
 h3	{
 	margin: 0px;
 	}
-	
+
+h4	{
+	font-size: 24px;
+	color:#cdd6f4;
+	}
+
+.code	{
+	margin: 0 60px 80px 25px;
+	background-color: #000;
+	}
+
+code	{
+	font-size: 20px;
+	color: #fff;
+	}
 /*-----------------------------*/
 /*           BUTTONS           */
 /*-----------------------------*/
