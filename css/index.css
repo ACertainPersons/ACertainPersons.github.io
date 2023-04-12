@@ -117,7 +117,9 @@ a	{
 	}
 
 ol li	{
+	line-height: 1.25;
 	color:#bac2de;
+	font-size: 18px;
 	}
 
 .bodybody ol li {
@@ -305,6 +307,11 @@ dl dd	{
 
 h3	{
 	margin: 0px;
+	}
+
+h4	{
+	font-size: 24px;
+	color:#cdd6f4;
 	}
 	
 /*-----------------------------*/
