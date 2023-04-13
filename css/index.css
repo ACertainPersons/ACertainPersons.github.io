@@ -314,6 +314,14 @@ h4	{
 	color:#cdd6f4;
 	}
 	
+.stats	{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	}
+
 /*-----------------------------*/
 /*           BUTTONS           */
 /*-----------------------------*/
