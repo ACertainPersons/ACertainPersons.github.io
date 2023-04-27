@@ -322,6 +322,13 @@ h4	{
 	margin-bottom: auto;
 	}
 
+.pins
+	{
+	margin-right: 5vw;
+	margin-bottom: 5vh;
+	max-width: 90vw;
+	}
+
 /*-----------------------------*/
 /*           BUTTONS           */
 /*-----------------------------*/
