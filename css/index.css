@@ -35,6 +35,18 @@ body{
 	font-family: 'SourceHanSerifTC', serif;
 	}	
 
+h5	{
+	color: #cdd6f4;
+	}
+
+.longtext p{
+	line-height: 2;
+	}
+
+.longtext p{
+	text-indent: 50px;
+	}
+
 /* Desktop*/
 @media screen and (min-width: 800px) {
 .headerzh{
@@ -64,6 +76,22 @@ body{
 .header{
 	font-size: 25px;
 	}
+
+.content{
+	width: 1400px;
+	margin:auto;
+	font-size: 20px;
+	}
+
+.longtext{
+	width: 900px;
+	margin:auto;
+	}
+
+h2	{
+	font-size: 42px;
+	}
+
 }
 
 .bodybody, .bodybodyzh{
@@ -78,7 +106,6 @@ body{
 
 h2	{
 	color:#cdd6f4;
-	font-size: 32px;
 	}
 
 @media screen and (min-width: 800px) {
@@ -89,7 +116,6 @@ h2	{
 
 .bodybody p	{
 	color:#cdd6f4;
-	font-size:16px;
 	}
 
 @media screen and (min-width: 800px) {
@@ -105,6 +131,14 @@ h2	{
 	color:#cdd6f4;
 	font-size: 15px;
 	line-height: 30px;
+	}
+
+.bodybody .p{
+	font-size: 16px;
+	}
+
+h2	{
+	font-size: 32px;
 	}
 }
 
@@ -163,6 +197,7 @@ ol li	{
 .license    {
 	padding-top: 200px;
 	padding-bottom: 20px;
+	font-size: 15px;
     }
 
 @media only screen and (min-width: 800px) {
