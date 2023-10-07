@@ -357,11 +357,16 @@ h4	{
 	margin-bottom: auto;
 	}
 
-.pins
-	{
+.pins{
 	margin-right: 5vw;
 	margin-bottom: 5vh;
 	max-width: 90vw;
+	width: 400px;
+	transition: width 2s;
+	}
+
+.pins:hover{
+	width: 500px;
 	}
 
 /*-----------------------------*/
