@@ -1,0 +1,348 @@
+@use 'sass:math'
+	
+@font-face 
+	font-family: "SourceHanSerifTC" 
+	src: url("https://acertainpersons.github.io/Content/fonts/SourceHanSerifTC-SemiBold.otf") format("opentype"),  url("https://acertainpersons.github.io/Content/fonts/SourceHanSerifTC-SemiBold.woff") format("woff") 
+
+	font-family: "cwTeXKai" 
+	src: url("https://acertainpersons.github.io/Content/fonts/cwTeXKai-zhonly.woff") format("woff") 
+
+// Variables
+$HansSerif: 'SourceHanSerif', serif
+$Oxygen: 'oxygen', sans-serif
+$Times: 'Times New Roman', Times, serif
+$NotoZh: Noto Sans Traditional Chinese, sans-serif
+
+$Rosewater: #f5e0dc
+$Flamingo: #f2cdcd
+$Pink: #f5c2e7
+$Mauve: #cba6f7
+$Red: #f38ba8
+$Maroon: #eba0ac
+$Peach: #fab387
+$Yellow: #f9e2af
+$Green: #a6e3a1
+$Teal: #94e2d5
+$Sky: #89dceb
+$Sapphire: #74c7ec
+$Blue: #89b4fa
+$Lavender: 	#b4befe
+$Text: 	#cdd6f4 
+$Subtext1: 	#bac2de 
+$Subtext0: 	#a6adc8 
+$Overlay2: 	#9399b2 
+$Overlay1: 	#7f849c 
+$Overlay0: 	#6c7086 
+$Surface2: 	#585b70 
+$Surface1:	#45475a 
+$Surface0: 	#313244 
+$Base: 	#1e1e2e
+$Mantle: 	#181825 
+$Crust: 	#11111b 
+
+$Orange: hsl(35, 77%, 50%)
+$Dark-Orange: hsl(35, 77%, 47%)
+
+$Desktop: 800px // The minimum width of desktop
+$Tablet: 1432px
+$NormalFont: 16px // Normal font size
+
+body
+	height: 100%
+	margin: 0
+	font-family: $Oxygen
+	background: #1e1e2e
+
+.header, .headerzh, .bodybody, .bodybodyzh
+	margin: 0
+	padding: 75px 30px 50px 30px
+
+.header, .headerzh
+	background: $Surface2
+	padding-bottom: 10px
+	paddint-top: 20px
+
+.header 
+	h1
+		font-family: $Times
+
+.headerzh
+	h1
+		font-family: $HansSerif
+
+
+h5
+	color: $Text
+
+.longtext
+	p
+		line-height: 2
+		text-indent: 50px
+
+.bodybody, .bodybodyzh
+	padding-left: 5%
+	padding-right: 5%
+
+.header a, .headerzh a
+	color:$Green
+	text-decoration: none
+
+h2	
+	color: $Text
+
+.bodybodyzh
+	h3
+		font-family: "cwTeXKai", cursive
+
+.bodybody
+	h3
+		font-family: "Permanent Marker"
+		font-size: 250px
+
+p.about
+	color: $Yellow
+
+a
+	color: $Blue
+
+ol
+	li
+		line-height: 1.26
+		color: $Text
+		font-size: $NormalFont
+
+.navbar
+	ul
+		list-style: none
+		padding: 0
+		li
+			display: inline
+			padding-right: 10px
+			font-size: 20px
+			color: $Subtext1
+		a
+			color: $Text
+			&:hover
+				color: white
+				text-decoration: underline
+
+.license
+	padding-top: 200px
+	padding-bottom: 20px
+	font-size: 15px
+
+.testimg
+	margin-top: 200px
+	text-align: center
+
+.languageszh
+	writing-mode: vertical-rl
+	padding-top: 0
+	padding-left: 0
+	width: 50px
+	height: 100%
+	position: fixed
+	left: 0
+	ul
+		li
+			padding-bottom: 10px
+			display: inline
+			font-size: 13px
+			color: $Subtext1
+
+.languages, .languageszh
+	padding-top: 0
+	padding-left: 0
+	position: fixed
+	background: rgb(88, 91, 112) // If no RGBA
+	background: rgba(88, 91, 112, 0.5)	
+	ul
+		a
+			color: $Blue
+
+.languages
+	width: 100%
+	height: 50px
+	bottom: 0
+	ul
+		li
+			display: inline
+			padding-right: 10px
+			font-size: 13px
+			color: $Subtext1
+
+dl
+	dt
+		color: $Subtext1
+		font-size: 16px
+	dd
+		color: $Subtext1
+		font-size: 8vh
+
+.button, .buttonen
+	text-align: center
+	margin-right: 100px
+	margin-left: 100px
+
+.buttonul
+	a
+		color: $Blue
+
+.button, .buttonen
+	ul
+		a
+			&:hover
+				color: white
+				text-decoration: underline
+
+h3
+	margin: 0px
+
+h4
+	font-size: 24px
+	color: $Subtext0
+
+.stats
+	display: block
+	margin: auto
+
+.pins
+	margin-right: 5vw
+	margin-bottom: 5vh
+	max-width: 90vw
+	width: 400px
+	transition: width 2s
+	&:hover
+		width: 500px
+
+/* Buttons */
+
+.btn:link,
+.btn:visited
+	display: inline-block
+	padding: 10px 50px
+	font-weight: bold
+	text-decoration: none
+	border-radius:200px
+	transition: background-color 0.5s, border 0.5s, color 0.5s
+
+.btn-full:link,
+.btn-full:visited
+	border: 1px solid $Orange
+	background-color: $Orange
+	color: white
+	margin-right: 15px
+
+.btn:hover,
+.btn:active
+	background-color: $Dark-Orange
+	border: 1px solid $Dark-Orange
+
+@media screen and (min-width: $Desktop)
+	.bodybody, .bodybodyzh
+		p
+			color:$Text
+
+	.headerzh
+		padding: 0
+		padding-top:30px
+		font-size: 30px
+		position: fixed
+		right: 0
+		height: 100%   
+
+	.bodybodyzh
+		margin: 0
+		font-weight: 300
+		overflow-x: auto
+		overflow-y: hidden
+		white-space: normal
+		width: 90%
+		height: calc(100% - 125px)
+		float: right
+		h2
+			margin-right: 600px
+		p
+			color: $Text
+			font-size: 18px
+			line-height: 30px
+		ol
+			li
+				font-size: 18px
+
+	.headerzh, .bodybodyzh
+		font-family: $NotoZh
+		writing-mode: vertical-rl
+	
+	.header
+		font-size: 25px
+		
+	.content
+		width: 1400px
+		margin: auto
+		font-size: 20px
+		
+	.longtext
+		width: 900px
+		margin: auto
+		
+	h2	
+		font-size: 42px
+	
+	.licensezh
+		padding-left: 150px
+		padding-right: 200px
+		padding-bottom: 20px
+		
+
+@media screen and (max-width: $Desktop)
+	.bodybodyzh
+		p
+			color: $Text
+			font-size: 15px
+			line-height: 30px
+		ol
+			li
+				font-size: 15px
+	
+	.bodybody
+		p
+			font-size: $NormalFont
+		ol
+			li
+				font-size: $NormalFont
+
+	h2
+		font-size: 32px
+
+	.licensezh
+		padding-left: 0
+		padding-top: 200px
+		padding-bottom: 20px
+
+	.languageszh
+		width: 100%
+		height: 50px
+		bottom: 0
+
+@media only screen and (max-width: $Tablet)
+	.bodybody, .bodybodyzh
+		h3
+			font-size: 50px
+	
+	.button, .buttonen
+		float: left
+
+@media only screen and (min-width: $Tablet)
+	.bodybodyzh
+		h3
+			font-size: 250px
+
+	.button, .buttonen
+		float: center
+
+
+@media screen and ( max-width: $Tablet) and (min-width: $Desktop)
+	.button
+		margin-bottom: 65vh
+	
