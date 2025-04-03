@@ -1,0 +1,46 @@
+body {
+  font-family: "Aldrich", sans-serif;
+  font-weight: 400;
+  color: #4CBDB5;
+  background-color: #070F11;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+}
+
+.header {
+  border: 2px solid #4CBDB5;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.body {
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+.entry {
+  border: 5px solid;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 40%;
+}
+
+.entry1 {
+  float: left;
+  border-color: #76EA7C;
+  color: #76EA7C;
+}
+
+.entry2 {
+  float: right;
+  border-color: #e8be53;
+  color: #e8be53;
+}
+
+/*# sourceMappingURL=style.css.map */
