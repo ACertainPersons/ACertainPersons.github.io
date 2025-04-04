@@ -12,6 +12,7 @@ body {
   border: 2px solid #4CBDB5;
   padding-left: 20px;
   padding-right: 20px;
+  margin-bottom: 56px;
 }
 
 .body {
@@ -24,23 +25,36 @@ h3 {
   font-weight: 600;
 }
 
+th {
+  padding-right: 5%;
+}
+
 .entry {
   border: 5px solid;
   padding-left: 20px;
   padding-right: 20px;
-  width: 40%;
+  text-align: left;
+  font-weight: 400;
+}
+.entry:hover {
+  background: #262626;
 }
 
 .entry1 {
-  float: left;
   border-color: #76EA7C;
   color: #76EA7C;
 }
 
 .entry2 {
-  float: right;
   border-color: #e8be53;
   color: #e8be53;
+}
+
+.footer {
+  margin-top: 64px;
+}
+.footer:visited {
+  color: #6725ea;
 }
 
 /*# sourceMappingURL=style.css.map */
