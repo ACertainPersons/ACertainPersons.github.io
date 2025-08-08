@@ -9,6 +9,7 @@ $Grey: #A4BEB5
 $Orange: #e8be53
 $Purple: #6725ea
 $Neutral: #262626
+$White: #FFF
 	
 body
 	font-family: "Aldrich", sans-serif
@@ -30,9 +31,14 @@ body
 	margin-top: 20px
 	padding-left: 20px
 	padding-right: 20px
+	color: $White
 
-h3
+h3 h2
 	font-weight: 600
+
+h2
+	color: $Green
+	margin-bottom: 30px
 
 th
 	padding-right: 5%
@@ -40,8 +46,10 @@ th
 .entry
 	border: 5px solid
 	padding-left: 20px
-	padding-right: 20px
-	//width: 40%
+	padding-right: 29px
+	margin-right: 10vw
+	width: 30vw
+	height: 120px
 	text-align: left
 	font-weight: 400
 	&:hover
@@ -50,7 +58,7 @@ th
 .entry1
 	//float: left
 	border-color: $Green
-	color: $Green
+	color: $Green !important
 
 .entry2
 	//float: right
@@ -61,3 +69,7 @@ th
 	margin-top: 64px
 	&:visited
 		color: $Purple
+
+.link
+	color: $Green
+	text-decoration: none

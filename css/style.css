@@ -19,10 +19,16 @@ body {
   margin-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
+  color: #FFF;
 }
 
-h3 {
+h3 h2 {
   font-weight: 600;
+}
+
+h2 {
+  color: #76EA7C;
+  margin-bottom: 30px;
 }
 
 th {
@@ -32,7 +38,10 @@ th {
 .entry {
   border: 5px solid;
   padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 29px;
+  margin-right: 10vw;
+  width: 30vw;
+  height: 120px;
   text-align: left;
   font-weight: 400;
 }
@@ -42,7 +51,7 @@ th {
 
 .entry1 {
   border-color: #76EA7C;
-  color: #76EA7C;
+  color: #76EA7C !important;
 }
 
 .entry2 {
@@ -55,6 +64,11 @@ th {
 }
 .footer:visited {
   color: #6725ea;
+}
+
+.link {
+  color: #76EA7C;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
