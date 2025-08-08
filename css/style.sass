@@ -1,3 +1,5 @@
+// Need to add a mobile version
+	
 // Variables
 $Neon: #4CBDB5
 $Black: #070F11
@@ -5,8 +7,9 @@ $Green: #76EA7C
 $Red: #D76C6F
 $Grey: #A4BEB5
 $Orange: #e8be53
-$Purple: #4F1EAF
+$Purple: #6725ea
 $Neutral: #262626
+$White: #FFF
 	
 body
 	font-family: "Aldrich", sans-serif
@@ -21,28 +24,52 @@ body
 	border: 2px solid $Neon
 	padding-left: 20px
 	padding-right: 20px
+	margin-bottom: 56px
 
 .body
 	//border: 1px solid $Neon
 	margin-top: 20px
 	padding-left: 20px
 	padding-right: 20px
+	color: $White
 
-h3
+h3 h2
 	font-weight: 600
+
+h2
+	color: $Green
+	margin-bottom: 30px
+
+th
+	padding-right: 5%
 
 .entry
 	border: 5px solid
 	padding-left: 20px
-	padding-right: 20px
-	width: 40%
+	padding-right: 29px
+	margin-right: 10vw
+	width: 30vw
+	height: 120px
+	text-align: left
+	font-weight: 400
+	&:hover
+		background: $Neutral
 
 .entry1
-	float: left
+	//float: left
 	border-color: $Green
-	color: $Green
+	color: $Green !important
 
 .entry2
-	float: right
+	//float: right
 	border-color: $Orange
 	color: $Orange
+	
+.footer
+	margin-top: 64px
+	&:visited
+		color: $Purple
+
+.link
+	color: $Green
+	text-decoration: none
